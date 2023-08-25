@@ -5,24 +5,22 @@ module.exports = {
     extend: {
       colors: {
         white: "#fff",
-        cornflowerblue: {
-          "100": "#0272cc",
-          "200": "rgba(35, 138, 228, 0.41)",
+        cornflowerblue: "#0272cc",
+        dimgray: {
+          "100": "#646464",
+          "200": "#555",
         },
         black: "#000",
-        dimgray: "#696969",
+        gainsboro: "rgba(217, 217, 217, 0)",
+        royalblue: "#0042ab",
         gray: "rgba(255, 255, 255, 0.6)",
       },
       fontFamily: {
         roboto: "Roboto",
       },
-      borderRadius: {
-        "sm-1": "13.1px",
-      },
     },
     fontSize: {
-      "9xl": "28px",
-      "15xl-8": "34.8px",
+      "21xl": "40px",
       inherit: "inherit",
     },
   },
