@@ -4,14 +4,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        white: "#fff",
-        cornflowerblue: "#0272cc",
         dimgray: {
-          "100": "#646464",
-          "200": "#555",
+          "100": "#6a6a6a",
+          "200": "#646464",
         },
         black: "#000",
         gainsboro: "rgba(217, 217, 217, 0)",
+        white: "#fff",
         royalblue: "#0042ab",
         gray: "rgba(255, 255, 255, 0.6)",
       },
@@ -20,7 +19,8 @@ module.exports = {
       },
     },
     fontSize: {
-      "21xl": "40px",
+      "18xl": "37px",
+      "5xl": "24px",
       inherit: "inherit",
     },
   },
